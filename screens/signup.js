@@ -9,7 +9,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { TextInput } from 'react-native-paper';
-import fs from 'react-native-fs'
+
 
 
 

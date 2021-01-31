@@ -23,6 +23,12 @@ export default function NotificationScreen({navigation,route}) {
   });
   return (
     <ScrollView >
+      {!route.params ? (
+        <View style={{alignItems:'center',height:500, justifyContent:'center'}}>
+          <Text >No Notifications Available</Text>
+          <Text >Go pick a doctor in doctors list</Text>
+        </View>
+      ) : (
       <View style={StyleSheet.container}>
         <View style={styles.circle}>
           <FontAwesome5 name="check-circle" size={120} color="#07da5f" />
@@ -134,6 +140,7 @@ export default function NotificationScreen({navigation,route}) {
           </TouchableOpacity>
         </View>
       </View>
+      )}
     </ScrollView>
   );
 }

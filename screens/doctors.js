@@ -5,7 +5,7 @@ import { FlatList, ScrollView, TouchableOpacity } from 'react-native-gesture-han
 import { AntDesign } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
 import personList from '../Doctors.json';
-
+  
 
 
 
